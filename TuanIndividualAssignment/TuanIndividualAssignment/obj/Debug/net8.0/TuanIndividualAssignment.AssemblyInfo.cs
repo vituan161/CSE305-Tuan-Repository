@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TuanIndividualAssignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b059f091bf9ba8fd47880fe9abf60af67d7b3285")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+844229dbef0dc35fbc3b68ba806f6fbfecc415a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("TuanIndividualAssignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TuanIndividualAssignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
