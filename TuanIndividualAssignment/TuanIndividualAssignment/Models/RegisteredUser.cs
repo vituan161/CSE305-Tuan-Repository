@@ -4,6 +4,6 @@ namespace TuanIndividualAssignment.Models
 {
     public class RegisteredUser
     {
-        public Collection<User> Users { get; set; }
+        public ICollection<User> Users { get; set; }
     }
 }
