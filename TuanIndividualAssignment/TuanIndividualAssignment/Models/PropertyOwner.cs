@@ -6,5 +6,7 @@ namespace TuanIndividualAssignment.Models
     {
         [Key]
         public int PropertyOwnerID { get; set; }
+        public ICollection<Property> listProperties {  get; set; }
+        
     }
 }
