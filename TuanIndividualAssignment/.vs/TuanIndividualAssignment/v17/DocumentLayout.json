@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\tuanindividualassignment\\models\\registereduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|solutionrelative:tuanindividualassignment\\models\\registereduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\tuanindividualassignment\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|solutionrelative:tuanindividualassignment\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\tuanindividualassignment\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|solutionrelative:tuanindividualassignment\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisteredUser.cs",
+              "DocumentMoniker": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Models\\RegisteredUser.cs",
+              "RelativeDocumentMoniker": "TuanIndividualAssignment\\Models\\RegisteredUser.cs",
+              "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Models\\RegisteredUser.cs",
+              "RelativeToolTip": "TuanIndividualAssignment\\Models\\RegisteredUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T07:30:40.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Property.cs",
+              "DocumentMoniker": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Models\\Property.cs",
+              "RelativeDocumentMoniker": "TuanIndividualAssignment\\Models\\Property.cs",
+              "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Models\\Property.cs",
+              "RelativeToolTip": "TuanIndividualAssignment\\Models\\Property.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T07:29:51.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TuanIndividualAssignment\\Models\\User.cs",
+              "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Models\\User.cs",
+              "RelativeToolTip": "TuanIndividualAssignment\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T07:26:27.099Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
