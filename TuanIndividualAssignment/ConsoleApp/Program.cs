@@ -8,21 +8,18 @@ namespace ConsoleApp
         {
             public class MainApp()
             {
-                public static void Main(String[] args)
+                public static void Main()
                 {
-                    ContractBuilder builder;
                     Client client = new Client();
-                    builder = new Permanent();
-                    client.requestCreateRentalContract(builder);
-                    builder.Contract.Show();
+                    DocumentBuilder builder;
 
-                    builder = new LongTerm();
-                    client.requestCreateRentalContract(builder);
-                    builder.Contract.Show();
+                    builder = new Normal();
+                    client.newDocument(builder);
+                    builder.Document.Show();
 
-                    builder = new ShortTerm();
-                    client.requestCreateRentalContract(builder);
-                    builder.Contract.Show();
+                    builder = new Confidential();
+                    client.newDocument(builder);
+                    builder.Document.Show();
 
                     Console.ReadKey();
                 }
@@ -30,140 +27,88 @@ namespace ConsoleApp
 
             class Client
             {
-                public void requestCreateRentalContract(ContractBuilder builder)
+                public void newDocument(DocumentBuilder builder)
                 {
-                    builder.BuildContractID();
-                    builder.BuildPropertyID();
-                    builder.BuildTenantID();
-                    builder.BuildRentAmount();
+                    builder.SetExtention();
+                    builder.SetEncryption();
                 }
             }
 
-            abstract class ContractBuilder
+            abstract class DocumentBuilder
             {
-                protected Contract contract;
+                protected Document document;
 
-                public Contract Contract
+                public Document Document
                 {
-                    get { return contract; }
+                    get { return document; }
                 }
 
-                public abstract void BuildContractID();
-                public abstract void BuildPropertyID();
-                public abstract void BuildTenantID();
-                public abstract void BuildRentAmount();
+                public abstract void SetExtention();
+                public abstract void SetEncryption();
             }
 
-            class Permanent : ContractBuilder
+            class Normal : DocumentBuilder
             {
-                public Permanent()
+                public Normal()
                 {
-                    contract = new Contract("Permanent");
+                    document = new Document("Normal");
                 }
 
-                public override void BuildContractID()
+                public override void SetExtention()
                 {
-                    contract["ContractID"] = "111";
+                    document["Extention"] = ".txt";
                 }
 
-                public override void BuildPropertyID()
+                public override void SetEncryption()
                 {
-                    contract["PropertyID"] = "123";
+                    document["Encryption"] = "Any Encryption";
                 }
 
-                public override void BuildTenantID()
-                {
-                    contract["TenantID"] = "123";
-                }
-
-                public override void BuildRentAmount()
-                {
-                    contract["RentAmount"] = "infinite";
-                }
             }
 
-            class LongTerm : ContractBuilder
+            class Confidential : DocumentBuilder
             {
-                public LongTerm()
+                public Confidential()
                 {
-                    contract = new Contract("LongTerm");
+                    document = new Document("Confidential");
                 }
 
-                public override void BuildContractID()
+                public override void SetExtention()
                 {
-                    contract["ContractID"] = "111";
+                    document["Extention"] = ".zip";
                 }
 
-                public override void BuildPropertyID()
+                public override void SetEncryption()
                 {
-                    contract["PropertyID"] = "123";
+                    document["Encryption"] = "AES Encryption";
                 }
 
-                public override void BuildTenantID()
-                {
-                    contract["TenantID"] = "123";
-                }
-
-                public override void BuildRentAmount()
-                {
-                    contract["RentAmount"] = "more than 2 years";
-                }
             }
 
-            class ShortTerm : ContractBuilder
+            class Document
             {
-                public ShortTerm()
-                {
-                    contract = new Contract("ShortTerm");
-                }
+                private string _documenType;
+                private Dictionary<string, string> _document = new Dictionary<string, string>();
 
-                public override void BuildContractID()
+                public Document(string DocumenType)
                 {
-                    contract["ContractID"] = "111";
-                }
-
-                public override void BuildPropertyID()
-                {
-                    contract["PropertyID"] = "123";
-                }
-
-                public override void BuildTenantID()
-                {
-                    contract["TenantID"] = "123";
-                }
-
-                public override void BuildRentAmount()
-                {
-                    contract["RentAmount"] = "less than 2 years";
-                }
-            }
-            class Contract
-            {
-                private string _contractType;
-                private Dictionary<string, string> _contract = new Dictionary<string, string>();
-
-                public Contract(string contractType)
-                {
-                    this._contractType = contractType;
+                    this._documenType = DocumenType;
                 }
 
                 public string this[string key]
                 {
-                    get { return _contract[key]; }
-                    set { _contract[key] = value; }
+                    get { return _document[key]; }
+                    set { _document[key] = value; }
                 }
 
                 public void Show()
                 {
                     Console.WriteLine("\n---------------------------");
-                    Console.WriteLine("Contract Type: {0}", _contractType);
-                    Console.WriteLine("Contract ID: {0}", _contract["ContractID"]);
-                    Console.WriteLine("Property ID: {0}", _contract["PropertyID"]);
-                    Console.WriteLine("Tenant ID: {0}", _contract["TenantID"]);
-                    Console.WriteLine("Rent Amount: {0}", _contract["RentAmount"]);
+                    Console.WriteLine("Document Type: {0}", _documenType);
+                    Console.WriteLine(" Extention: {0}", _document["Extention"]);
+                    Console.WriteLine(" Encryption: {0}", _document["Encryption"]);
                 }
             }
-
         }
     }
 }

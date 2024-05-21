@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\tuanindividualassignment\\builder\\documentationbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|solutionrelative:tuanindividualassignment\\builder\\documentationbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\tuanindividualassignment\\builder\\buildercontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|solutionrelative:tuanindividualassignment\\builder\\buildercontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +38,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DocumentationBuilder.cs",
+              "DocumentMoniker": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Builder\\DocumentationBuilder.cs",
+              "RelativeDocumentMoniker": "TuanIndividualAssignment\\Builder\\DocumentationBuilder.cs",
+              "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Builder\\DocumentationBuilder.cs",
+              "RelativeToolTip": "TuanIndividualAssignment\\Builder\\DocumentationBuilder.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAcwF4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T07:29:02.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\ConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
               "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\ConsoleApp\\Program.cs",
               "RelativeToolTip": "ConsoleApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T07:04:38.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BuilderContract.cs",
               "DocumentMoniker": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Builder\\BuilderContract.cs",
               "RelativeDocumentMoniker": "TuanIndividualAssignment\\Builder\\BuilderContract.cs",
               "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Builder\\BuilderContract.cs",
               "RelativeToolTip": "TuanIndividualAssignment\\Builder\\BuilderContract.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAKQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-21T06:10:43.718Z",
               "EditorCaption": ""
