@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TuanIndividualAssignment", "TuanIndividualAssignment\TuanIndividualAssignment.csproj", "{6DDE6175-3DFF-4111-944F-FBD1177AC01B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{725E24BA-B75B-494D-B959-9525B8EE945E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{725E24BA-B75B-494D-B959-9525B8EE945E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

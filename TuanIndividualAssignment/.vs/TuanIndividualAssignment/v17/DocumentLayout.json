@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\ConsoleApp.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\Builder Pattern.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\Builder Pattern.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\tuanindividualassignment\\builder\\documentationbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|solutionrelative:tuanindividualassignment\\builder\\documentationbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\ConsoleApp.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\consoleapp\\factory method pattern\\lowpriorityconcrete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\factory method pattern\\lowpriorityconcrete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\tuanindividualassignment\\builder\\buildercontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DDE6175-3DFF-4111-944F-FBD1177AC01B}|TuanIndividualAssignment\\TuanIndividualAssignment.csproj|solutionrelative:tuanindividualassignment\\builder\\buildercontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\ConsoleApp.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\consoleapp\\factory method pattern\\highpriorityconcretecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\factory method pattern\\highpriorityconcretecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\ConsoleApp.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\consoleapp\\factory method pattern\\mediumpriorityconcretecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\factory method pattern\\mediumpriorityconcretecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\ConsoleApp.csproj|d:\\github\\cse305repository\\tuanindividualassignment\\consoleapp\\factory method pattern\\lowpriorityconcretecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725E24BA-B75B-494D-B959-9525B8EE945E}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\factory method pattern\\lowpriorityconcretecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,15 +46,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DocumentationBuilder.cs",
-              "DocumentMoniker": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Builder\\DocumentationBuilder.cs",
-              "RelativeDocumentMoniker": "TuanIndividualAssignment\\Builder\\DocumentationBuilder.cs",
-              "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Builder\\DocumentationBuilder.cs",
-              "RelativeToolTip": "TuanIndividualAssignment\\Builder\\DocumentationBuilder.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAcwF4AAAANAAAA",
+              "DocumentIndex": 3,
+              "Title": "MediumPriorityConcreteCreator.cs",
+              "DocumentMoniker": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\ConsoleApp\\Factory Method Pattern\\MediumPriorityConcreteCreator.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Factory Method Pattern\\MediumPriorityConcreteCreator.cs",
+              "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\ConsoleApp\\Factory Method Pattern\\MediumPriorityConcreteCreator.cs",
+              "RelativeToolTip": "ConsoleApp\\Factory Method Pattern\\MediumPriorityConcreteCreator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T07:29:02.019Z",
+              "WhenOpened": "2024-05-28T08:04:17.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HighPriorityConcreteCreator.cs",
+              "DocumentMoniker": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\ConsoleApp\\Factory Method Pattern\\HighPriorityConcreteCreator.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Factory Method Pattern\\HighPriorityConcreteCreator.cs",
+              "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\ConsoleApp\\Factory Method Pattern\\HighPriorityConcreteCreator.cs",
+              "RelativeToolTip": "ConsoleApp\\Factory Method Pattern\\HighPriorityConcreteCreator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T08:03:57.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LowPriorityConcrete.cs",
+              "DocumentMoniker": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\ConsoleApp\\Factory Method Pattern\\LowPriorityConcrete.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Factory Method Pattern\\LowPriorityConcrete.cs",
+              "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\ConsoleApp\\Factory Method Pattern\\LowPriorityConcrete.cs",
+              "RelativeToolTip": "ConsoleApp\\Factory Method Pattern\\LowPriorityConcrete.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T07:58:06.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LowPriorityConcreteCreator.cs",
+              "DocumentMoniker": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\ConsoleApp\\Factory Method Pattern\\LowPriorityConcreteCreator.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Factory Method Pattern\\LowPriorityConcreteCreator.cs",
+              "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\ConsoleApp\\Factory Method Pattern\\LowPriorityConcreteCreator.cs",
+              "RelativeToolTip": "ConsoleApp\\Factory Method Pattern\\LowPriorityConcreteCreator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T07:57:59.816Z",
               "EditorCaption": ""
             },
             {
@@ -57,22 +104,9 @@
               "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
               "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\ConsoleApp\\Program.cs",
               "RelativeToolTip": "ConsoleApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAgwAoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T07:04:38.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BuilderContract.cs",
-              "DocumentMoniker": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Builder\\BuilderContract.cs",
-              "RelativeDocumentMoniker": "TuanIndividualAssignment\\Builder\\BuilderContract.cs",
-              "ToolTip": "D:\\GitHub\\CSE305Repository\\TuanIndividualAssignment\\TuanIndividualAssignment\\Builder\\BuilderContract.cs",
-              "RelativeToolTip": "TuanIndividualAssignment\\Builder\\BuilderContract.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T06:10:43.718Z",
+              "WhenOpened": "2024-05-28T07:42:04.913Z",
               "EditorCaption": ""
             }
           ]

@@ -2,13 +2,7 @@
 {
     namespace TuanIndividualAssignment.Builder
     {
-        public class MainApp()
-        {
-            public static void Main()
-            {
-                
-            }
-        }
+        
 
         class Client
         {

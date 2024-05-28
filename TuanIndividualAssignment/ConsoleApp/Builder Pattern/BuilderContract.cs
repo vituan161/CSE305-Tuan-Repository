@@ -4,27 +4,6 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace TuanIndividualAssignment.Builder
 {
-    public class MainApp()
-    {
-        public static void Main()
-        {
-            ContractBuilder builder;
-            Client client = new Client();
-            builder = new Permanent();
-            client.requestCreateRentalContract(builder);
-            builder.Contract.Show();
-
-            builder = new LongTerm();
-            client.requestCreateRentalContract(builder);
-            builder.Contract.Show();
-
-            builder = new ShortTerm();
-            client.requestCreateRentalContract(builder);
-            builder.Contract.Show();
-
-            Console.ReadKey();
-        }
-    }
 
     class Client
     {
